@@ -23,6 +23,7 @@ DFS/BFS는 다음과 같은 유형에서 주로 활용됩니다:
 ---
 
 **🔨 DFS (Depth-First Search)**
+
 **✅ 개요**
   - 한 갈래를 **끝까지** 탐색한 뒤, **다른 갈래**로 이동
   - **재귀 함수** 기반 구현이 일반적
@@ -47,6 +48,7 @@ void dfs(int n, int sum, int[] numbers, int target) {
   - 모든 경우의 수를 확인
 
 **🔄 BFS (Breadth-First Search)**
+
 **✅ 개요**
   - 모든 인접 노드를 한 번에 방문한 후, 그 다음 레벨로 이동
   - Queue (FIFO) 기반 구현이 일반적

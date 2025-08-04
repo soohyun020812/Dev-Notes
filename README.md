@@ -47,6 +47,8 @@ void dfs(int n, int sum, int[] numbers, int target) {
   - 각 숫자를 더하거나 빼는 두 경우의 수 모두 탐색
   - 모든 경우의 수를 확인
 
+--- 
+
 ### 🔄 BFS (Breadth-First Search)
 
 **✅ 개요**
@@ -70,6 +72,8 @@ while queue:
   - 시작점에서 출발 가능한 노드를 Queue에 넣음
   - Queue에서 하나씩 꺼내면서 그 다음 연결 노드를 탐색
   - 연결된 순서대로 탐색하여 경로의 순서 보장
+
+--- 
 
 **⚖️ DFS vs BFS 비교**
 | 항목    | DFS                       | BFS                      |
